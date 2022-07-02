@@ -1,4 +1,4 @@
-# Colorize Wordle
+# Coding Challenges
 
 Wordle is a word guessing game where the player is given 6 tries to guess a hidden English word consisting of 5 characters in the range a-z. After each guess, the game provides hints to the player by highlighting letters of the guessed word with one of three different colors.
 
