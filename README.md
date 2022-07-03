@@ -13,6 +13,3 @@ For example, if the user guessed "elate" and the hidden word was "bible", the hi
 
 Similarly, when the guess is "mamma" for the hidden word "maxim", the game should show "GGYBB" rather than "GGYYY".
 
-Please see the provided test cases for additional examples.
-
-Rubric
