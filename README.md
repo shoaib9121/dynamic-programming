@@ -1,19 +1,17 @@
-# Coding Challenges
+# Valid Parentheses
 
-This repo consists of various JavaScript coding challenges. Each branch contains a different coding excercise
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
-## Dynamic Programming Tips
+An input string is valid if:
 
-### Alvin's Memoization Recipe
+- Open brackets must be closed by the same type of brackets.
+- Open brackets must be closed in the correct order.
 
-1. Make it work
+## Constraints
 
-- visualize the problem as a tree
-- implement the tree using recursion
-- test it
+1. 1 <= s.length <= 104
+2. s consists of parentheses only '()[]{}'
 
-2. Make it efficient
+### Time and Space complexity
 
-- add a memo object(as an argument to func may be)
-- add a base case to return memo values
-- store return values into the memo
+The time complexity is O(n) and space complexity is O(n) as well because in the worst-case scenario if we get a sequence with only opening characters (({[([{{[( we’ll push all of them to the stack
