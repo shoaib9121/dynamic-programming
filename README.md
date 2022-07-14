@@ -1,6 +1,16 @@
-# Coding Challenges
+# Coding Excercise
 
 This repo consists of various JavaScript coding challenges. Each branch contains a different coding excercise
+
+### Branches Links
+
+[Colorize Wordle](https://github.com/shoaib9121/dynamic-programming/tree/colorize-wordle)
+
+[Grid Traveler](https://github.com/shoaib9121/dynamic-programming/tree/grid-traveler)
+
+[Valid Parenthesis](https://github.com/shoaib9121/dynamic-programming/tree/valid-parenthesis)
+
+[Factorial](https://github.com/shoaib9121/dynamic-programming/tree/factorial)
 
 ## Dynamic Programming Tips
 
