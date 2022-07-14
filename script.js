@@ -24,9 +24,9 @@ const isValid = (str = "") => {
   }
   return stack.length ? false : true;
 };
-console.log("([])" + " " + isValid("([])"));
-console.log("([)]" + " " + isValid("([)]"));
-console.log("(([]){})" + " " + isValid("(([]){})"));
+// console.log("([])" + " " + isValid("([])"));
+// console.log("([)]" + " " + isValid("([)]"));
+// console.log("(([]){})" + " " + isValid("(([]){})"));
 
 /**
  * Approach 2: Using a mapper
@@ -55,3 +55,37 @@ const isValidUsingMap = (str = "") => {
 // console.log("([)]" + " " + isValidUsingMap("([)]"));
 // console.log("([])" + " " + isValidUsingMap("([])"));
 // console.log("(([]){})" + " " + isValidUsingMap("(([]){})"));
+
+/**
+ * Recursion approach under development
+ * @param {*} str
+ * @param {*} recent
+ * @returns
+ */
+const withRecursion = (str = "", recent = "") => {
+  let mapper = new Map([
+    ["(", ")"],
+    ["{", "}"],
+    ["[", "]"],
+  ]);
+  if (!str.length === 0) return;
+
+  let char = str[0];
+  let subS = str.substring(1, str.length - 1);
+  if (mapper.has(char)) {
+    return char + withRecursion(subS, char);
+  } else {
+    isPairValid(recent, char);
+  }
+};
+console.log("([)]" + " " + withRecursion("([)]"));
+// console.log("([)]" + " " + stack);
+
+const isPairValid = (start, end) => {
+  // let mapper = new Map([
+  //   [")", "("],
+  //   ["}", "{"],
+  //   ["]", "["],
+  // ]);
+  return end.charCodeAt() - start.charCodeAt() > 2 ? false : true;
+};
