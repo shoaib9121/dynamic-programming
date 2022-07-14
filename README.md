@@ -10,6 +10,8 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 
 [Valid Parenthesis](https://github.com/shoaib9121/dynamic-programming/tree/valid-parenthesis)
 
+[Linked List](https://github.com/shoaib9121/dynamic-programming/tree/linked-list)
+
 [Factorial](https://github.com/shoaib9121/dynamic-programming/tree/factorial)
 
 ## Dynamic Programming Tips
