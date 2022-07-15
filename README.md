@@ -11,7 +11,7 @@ At the beginning of the game, you start with an empty record. You are given a li
 
 Return the sum of all the scores on the record. The test cases are generated so that the answer fits in a 32-bit integer.
 
-### Example 1:
+### Example 1
 
 ```
 Input: ops = ["5","2","C","D","+"]
@@ -25,7 +25,7 @@ Explanation:
 The total sum is 5 + 10 + 15 = 30.
 ```
 
-### Example 2:
+### Example 2
 
 ```
 Input: ops = ["5","-2","4","C","D","9","+","+"]
@@ -42,9 +42,17 @@ Explanation:
 The total sum is 5 + -2 + -4 + 9 + 5 + 14 = 27.
 ```
 
-### Constraints:
+### Constraints
 
 - `1 <= ops.length <= 1000`
 - `ops[i]` is `"C"`, `"D"`, `"+"`, or a string representing an integer in the range `[-3 * 104, 3 * 104]`.
 - For operation `"+"`, there will always be at least two previous scores on the record.
 - For operations `"C"` and `"D"`, there will always be at least one previous score on the record.
+
+### Time and Space Complexity
+
+#### Time Complexity
+O(N)O(N), where N is the length of `ops`. We parse through every element in the given array once, and do O(1)O(1) work for each element.
+
+#### Space Complexity 
+O(N)O(N), the space used to store our `records`
