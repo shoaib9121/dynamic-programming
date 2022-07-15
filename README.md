@@ -14,6 +14,8 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 
 [Factorial](https://github.com/shoaib9121/dynamic-programming/tree/factorial)
 
+[Baseball Game](https://github.com/shoaib9121/dynamic-programming/tree/baseball-game)
+
 ## Dynamic Programming Tips
 
 ### Alvin's Memoization Recipe
