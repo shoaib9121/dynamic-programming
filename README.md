@@ -8,6 +8,8 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 
 [Grid Traveler](https://github.com/shoaib9121/dynamic-programming/tree/grid-traveler)
 
+[Three Sum](https://github.com/shoaib9121/dynamic-programming/tree/three-sum)
+
 [Valid Parenthesis](https://github.com/shoaib9121/dynamic-programming/tree/valid-parenthesis)
 
 [Linked List](https://github.com/shoaib9121/dynamic-programming/tree/linked-list)
