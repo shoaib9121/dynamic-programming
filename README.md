@@ -18,6 +18,8 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 
 [Baseball Game](https://github.com/shoaib9121/dynamic-programming/tree/baseball-game)
 
+[Search a Word in a Dictionary](https://github.com/shoaib9121/dynamic-programming/tree/search-word-in-dictionary)
+
 ## Dynamic Programming Tips
 
 ### Alvin's Memoization Recipe
