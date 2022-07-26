@@ -20,6 +20,8 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 
 [Search a Word in a Dictionary](https://github.com/shoaib9121/dynamic-programming/tree/search-word-in-dictionary)
 
+[Sort Even Odd Array](https://github.com/shoaib9121/dynamic-programming/tree/sort-even-odd-array)
+
 ## Dynamic Programming Tips
 
 ### Alvin's Memoization Recipe
