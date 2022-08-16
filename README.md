@@ -22,6 +22,8 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 
 [Sort Even Odd Array](https://github.com/shoaib9121/dynamic-programming/tree/sort-even-odd-array)
 
+[Search Insert Position](https://github.com/shoaib9121/dynamic-programming/tree/search-insert-position)
+
 ## Dynamic Programming Tips
 
 ### Alvin's Memoization Recipe
