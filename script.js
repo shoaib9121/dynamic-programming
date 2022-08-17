@@ -1,27 +1,28 @@
 /**
+ * Time complexity is O(n^2)
  * @param {number[]} nums
- * @param {number} target
- * @return {number}
+ * @return {number[]}
  */
-const searchInsert = (nums, target) => {
-  let left = 0,
-    right = nums.length - 1,
-    mid = 0;
-  if (!nums.length || target < nums[left] || (!mid && nums[mid] === target))
-    return 0;
-  while (left < right) {
-    mid = Math.floor(left + right - left / 2);
-    if (target === nums[mid]) {
-      return mid;
-    } else if (target < nums[mid]) {
-      right = mid - 1;
-    } else {
-      left = mid + 1;
+const sortedSquares = (nums) => {
+  const squared = nums.map((num) => Math.pow(num, 2)); // n
+
+  for (let i = 0; i < squared.length; i++) {
+    const curr = squared[i];
+    const next = squared[i + 1];
+    if (next < curr) {
+      [squared[i], squared[i + 1]] = [squared[i + 1], squared[i]];
+      for (let j = i; j > 0; j--) {
+        const innerCurr = squared[j];
+        const innerPrev = squared[j - 1];
+        if (innerCurr < innerPrev) {
+          [squared[j], squared[j - 1]] = [squared[j - 1], squared[j]];
+        }
+      }
     }
   }
-  return nums[mid] > target ? mid : mid + 1;
+
+  return squared;
 };
 
-console.log(searchInsert([1, 3, 5, 6], 5)); // 2
-console.log(searchInsert([1, 3, 5, 6], 2)); // 1
-console.log(searchInsert([1, 3, 5, 6], 7)); // 4
+console.log(sortedSquares([-4, -1, 0, 3, 10])); // [0,1,9,16,100]
+// console.log(sortedSquares([-7, -3, 2, 3, 11])); // [4,9,9,49,121]
