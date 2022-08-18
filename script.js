@@ -22,11 +22,13 @@ const sortedSquaresOptimalSolution = (nums) => {
     }
   }
 
+  // push the remaining ones left in negative side
   while (negPointer >= 0) {
     squares.push(Math.pow(nums[negPointer], 2));
     negPointer--;
   }
 
+  // push the remaining ones left in positive side
   while (posPointer < nums.length) {
     squares.push(Math.pow(nums[posPointer], 2));
     posPointer++;
