@@ -24,6 +24,8 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 
 [Search Insert Position](https://github.com/shoaib9121/dynamic-programming/tree/search-insert-position)
 
+[Squares of Sorted Array](https://github.com/shoaib9121/dynamic-programming/tree/squares-of-sorted-array)
+
 ## Dynamic Programming Tips
 
 ### Alvin's Memoization Recipe
