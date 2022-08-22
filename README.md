@@ -2,7 +2,7 @@
 
 Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
 
-You must write an algorithm with O(n) runtime complexity.
+You must write an algorithm with O(n) and O(n^2) runtime complexity.
 
 ## Example 1:
 
