@@ -1,21 +1,23 @@
-# Squares of sorted array
+# Validate Subsequence Array
 
-Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
+Given two non-empty arrays of integers, write a function that determines
+whether the second array is a subsequence of the first one.
 
-You must write an algorithm with O(n) and O(n^2) runtime complexity.
+A subsequence of an array is a set of numbers that aren't necessarily adjacent
+in the array but that are in the same order as they appear in the array. For
+instance, the numbers `[1, 3, 4]` form a subsequence of the array
+`[1, 2, 3, 4]`, and so do the numbers `[2, 4]` . Note
+that a single number in an array and the array itself are both valid
+subsequences of the array.
 
 ## Example 1:
 
 ```
-Input: nums = [-4,-1,0,3,10]
-Output: [0,1,9,16,100]
-Explanation: After squaring, the array becomes [16,1,0,9,100].
-After sorting, it becomes [0,1,9,16,100].
+Input:
+nums = [5, 1, 22, 25, 6, -1, 8, 10]
+sequence = [1, 6, -1, 10]
 ```
 
-## Example 2:
-
 ```
-Input: nums = [-7,-3,2,3,11]
-Output: [4,9,9,49,121]
+Output: true
 ```
