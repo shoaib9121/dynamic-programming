@@ -4,27 +4,21 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 
 ### Branches Links
 
-[Colorize Wordle](https://github.com/shoaib9121/dynamic-programming/tree/colorize-wordle)
+| Problem  | Complexity |
+| ------------- | ------------- |
+| [Grid Traveler](https://github.com/shoaib9121/dynamic-programming/tree/grid-traveler)  | Easy |
+| [Valid Parenthesis](https://github.com/shoaib9121/dynamic-programming/tree/valid-parenthesis) | Easy |
+| [Linked List](https://github.com/shoaib9121/dynamic-programming/tree/linked-list) | Easy |
+| [Factorial](https://github.com/shoaib9121/dynamic-programming/tree/factorial) | Easy |
+| [Baseball Game](https://github.com/shoaib9121/dynamic-programming/tree/baseball-game) | Easy |
+| [Sort Even Odd Array](https://github.com/shoaib9121/dynamic-programming/tree/sort-even-odd-array) | Easy
+| [Search Insert Position](https://github.com/shoaib9121/dynamic-programming/tree/search-insert-position) | Easy |
+| [Colorize Wordle](https://github.com/shoaib9121/dynamic-programming/tree/colorize-wordle)  | Medium  |
+| [Search a Word in a Dictionary](https://github.com/shoaib9121/dynamic-programming/tree/search-word-in-dictionary) | Medium |
+| [Three Sum](https://github.com/shoaib9121/dynamic-programming/tree/three-sum)  | Medium  |
+| [River Sizes](https://github.com/shoaib9121/dynamic-programming/tree/river-sizes) | Medium |
+| [Squares of Sorted Array](https://github.com/shoaib9121/dynamic-programming/tree/squares-of-sorted-array) | Medium |
 
-[Grid Traveler](https://github.com/shoaib9121/dynamic-programming/tree/grid-traveler)
-
-[Three Sum](https://github.com/shoaib9121/dynamic-programming/tree/three-sum)
-
-[Valid Parenthesis](https://github.com/shoaib9121/dynamic-programming/tree/valid-parenthesis)
-
-[Linked List](https://github.com/shoaib9121/dynamic-programming/tree/linked-list)
-
-[Factorial](https://github.com/shoaib9121/dynamic-programming/tree/factorial)
-
-[Baseball Game](https://github.com/shoaib9121/dynamic-programming/tree/baseball-game)
-
-[Search a Word in a Dictionary](https://github.com/shoaib9121/dynamic-programming/tree/search-word-in-dictionary)
-
-[Sort Even Odd Array](https://github.com/shoaib9121/dynamic-programming/tree/sort-even-odd-array)
-
-[Search Insert Position](https://github.com/shoaib9121/dynamic-programming/tree/search-insert-position)
-
-[Squares of Sorted Array](https://github.com/shoaib9121/dynamic-programming/tree/squares-of-sorted-array)
 
 ## Dynamic Programming Tips
 
