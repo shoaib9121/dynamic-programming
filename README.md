@@ -1,18 +1,21 @@
-# Pascal to sentence case
+# Print a stairCase
 
-Convert pascal case string to sentence.
+Print a stairCase based on a given integer as parameter.
 
 ### Example 1
 
 ```
 Input:
 
-ThisIsPascalCase
+n = 5
 ```
 
 ```
 Output:
 
-This is pascal case
-
+    #
+   ##
+  ###
+ ####
+#####
 ```
