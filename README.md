@@ -1,6 +1,9 @@
 # Print a stairCase
 
-Print a stairCase based on a given integer as parameter.
+Print a stairCase based on a given integer as parameter. Couple of approaches implemented
+
+- Two dimensional array approach
+- String approach
 
 ### Example 1
 
