@@ -1,43 +1,44 @@
-const stairCase = (n) => {
-  let stairCase = [];
-  // stairCase = usingTwoDArray(n);
-  console.log(usingTwoDArray(n));
-  stairCase = usingString(n);
-  return stairCase;
+// let binary = ''
+const getBinaryRecursive = (n, binary = "") => {
+  console.log(`n ${n} binary ${binary}`);
+
+  const quotient = Math.floor(n / 2);
+  const remainder = Math.floor(n % 2);
+  binary += remainder;
+  // binary = binary + remainder;
+  if (quotient < 2) return;
+  getBinary(quotient, binary);
+
+  return binary;
 };
 
-const usingString = (n) => {
-  let stairs = "";
-  for (let i = 0; i < n; i++) {
-    let stair = " ".repeat(n - 1 - i) + "#".repeat(i + 1) + "\n";
-    stairs += stair;
-  }
-  return stairs;
-};
+const getBinary = (n) => {
+  // let quotient = Math.floor(n / 2),
+  let quotient = n,
+    binary = "";
 
-const usingTwoDArray = (n) => {
-  let twoDimensionalArray = [];
+  while (quotient >= 2) {
+    if (Math.floor(quotient / 2) === 2) {
+      quotient = Math.floor(quotient / 2);
 
-  for (let i = 1; i <= n; i++) {
-    let row = [];
-    for (let j = 1; j <= n; j++) {
-      row.push("#");
+      binary = "10" + binary;
+    } else {
+      const remainder = Math.floor(quotient % 2);
+      binary = binary + remainder;
+      quotient = Math.floor(quotient / 2);
+
+      // binary = remainder + binary;
     }
-    twoDimensionalArray.push(row);
+
+    // console.log(`quotient ${quotient} binary ${binary}`);
   }
+  // if (quotient < 2) {
+  //   binary = quotient + binary;
+  // }
 
-  twoDimensionalArray.forEach((_item, i) => {
-    for (let j = 0; j < n - i - 1; j++) {
-      twoDimensionalArray[i][j] = " ";
-    }
-
-    // For inverse stairCase
-    // for (let j = i + 1; j < n; j++) {
-    //   twoDimensionalArray[i][j] = " ";
-    // }
-  });
-  return twoDimensionalArray;
+  return binary;
 };
 
-// console.log(stairCase(5));
-console.log(stairCase(6));
+// console.log(getBinaryRecursive(10));
+console.log(`binary of 11 ${getBinary(11)}`); // 1011
+console.log(`binary of 10 ${getBinary(10)}`); // 1010
