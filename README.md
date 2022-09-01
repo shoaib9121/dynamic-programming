@@ -4,21 +4,23 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 
 ### Branches Links
 
-| Problem  | Complexity |
-| ------------- | ------------- |
-| [Grid Traveler](https://github.com/shoaib9121/dynamic-programming/tree/grid-traveler)  | Easy |
-| [Valid Parenthesis](https://github.com/shoaib9121/dynamic-programming/tree/valid-parenthesis) | Easy |
-| [Linked List](https://github.com/shoaib9121/dynamic-programming/tree/linked-list) | Easy |
-| [Factorial](https://github.com/shoaib9121/dynamic-programming/tree/factorial) | Easy |
-| [Baseball Game](https://github.com/shoaib9121/dynamic-programming/tree/baseball-game) | Easy |
-| [Sort Even Odd Array](https://github.com/shoaib9121/dynamic-programming/tree/sort-even-odd-array) | Easy
-| [Search Insert Position](https://github.com/shoaib9121/dynamic-programming/tree/search-insert-position) | Easy |
-| [Colorize Wordle](https://github.com/shoaib9121/dynamic-programming/tree/colorize-wordle)  | Medium  |
-| [Search a Word in a Dictionary](https://github.com/shoaib9121/dynamic-programming/tree/search-word-in-dictionary) | Medium |
-| [Three Sum](https://github.com/shoaib9121/dynamic-programming/tree/three-sum)  | Medium  |
-| [River Sizes](https://github.com/shoaib9121/dynamic-programming/tree/river-sizes) | Medium |
-| [Squares of Sorted Array](https://github.com/shoaib9121/dynamic-programming/tree/squares-of-sorted-array) | Medium |
-
+| Problem                                                                                                           | Complexity |
+| ----------------------------------------------------------------------------------------------------------------- | ---------- |
+| [Grid Traveler](https://github.com/shoaib9121/dynamic-programming/tree/grid-traveler)                             | Easy       |
+| [Valid Parenthesis](https://github.com/shoaib9121/dynamic-programming/tree/valid-parenthesis)                     | Easy       |
+| [Linked List](https://github.com/shoaib9121/dynamic-programming/tree/linked-list)                                 | Easy       |
+| [Factorial](https://github.com/shoaib9121/dynamic-programming/tree/factorial)                                     | Easy       |
+| [Baseball Game](https://github.com/shoaib9121/dynamic-programming/tree/baseball-game)                             | Easy       |
+| [Sort Even Odd Array](https://github.com/shoaib9121/dynamic-programming/tree/sort-even-odd-array)                 | Easy       |
+| [Search Insert Position](https://github.com/shoaib9121/dynamic-programming/tree/search-insert-position)           | Easy       |
+| [Decimal to Binary](https://github.com/shoaib9121/dynamic-programming/tree/decimal-to-binary)                     | Easy       |
+| [Print Staircase](https://github.com/shoaib9121/dynamic-programming/tree/print-staircase)                         | Easy       |
+| [Pascal to Sentence case](https://github.com/shoaib9121/dynamic-programming/tree/pascal-to-sentence-case)         | Easy       |
+| [Colorize Wordle](https://github.com/shoaib9121/dynamic-programming/tree/colorize-wordle)                         | Medium     |
+| [Search a Word in a Dictionary](https://github.com/shoaib9121/dynamic-programming/tree/search-word-in-dictionary) | Medium     |
+| [Three Sum](https://github.com/shoaib9121/dynamic-programming/tree/three-sum)                                     | Medium     |
+| [River Sizes](https://github.com/shoaib9121/dynamic-programming/tree/river-sizes)                                 | Medium     |
+| [Squares of Sorted Array](https://github.com/shoaib9121/dynamic-programming/tree/squares-of-sorted-array)         | Medium     |
 
 ## Dynamic Programming Tips
 
