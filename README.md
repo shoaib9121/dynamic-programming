@@ -6,6 +6,7 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 
 | Problem                                                                                                           | Complexity |
 | ----------------------------------------------------------------------------------------------------------------- | ---------- |
+| [Flatten Array](https://github.com/shoaib9121/dynamic-programming/tree/flatten-array)                             | Easy       |
 | [Grid Traveler](https://github.com/shoaib9121/dynamic-programming/tree/grid-traveler)                             | Easy       |
 | [Valid Parenthesis](https://github.com/shoaib9121/dynamic-programming/tree/valid-parenthesis)                     | Easy       |
 | [Linked List](https://github.com/shoaib9121/dynamic-programming/tree/linked-list)                                 | Easy       |
