@@ -1,24 +1,20 @@
-# Print a stairCase
+# Flatten Multi level array into single array
 
-Print a stairCase based on a given integer as parameter. Couple of approaches implemented
+Flatten Multi level array into single array
 
-- Two dimensional array approach
-- String approach
+- Recursive approach
+- Using array reduce method. This approach has a limitation. Does not flatten deep level arrays.
 
 ### Example 1
 
 ```
 Input:
 
-n = 5
+arr = ["a", "b", ["c", "d", ["e", "f"]]]
 ```
 
 ```
 Output:
 
-    #
-   ##
-  ###
- ####
-#####
+[ 'a', 'b', 'c', 'd', 'e', 'f' ]
 ```
