@@ -18,6 +18,7 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 | [Print Staircase](https://github.com/shoaib9121/dynamic-programming/tree/print-staircase)                         | Easy       |
 | [Pascal to Sentence case](https://github.com/shoaib9121/dynamic-programming/tree/pascal-to-sentence-case)         | Easy       |
 | [Colorize Wordle](https://github.com/shoaib9121/dynamic-programming/tree/colorize-wordle)                         | Medium     |
+| [Minimum Task Cost](https://https://github.com/shoaib9121/dynamic-programming/tree/minimum-task-cost)             | Medium     |
 | [Search a Word in a Dictionary](https://github.com/shoaib9121/dynamic-programming/tree/search-word-in-dictionary) | Medium     |
 | [Three Sum](https://github.com/shoaib9121/dynamic-programming/tree/three-sum)                                     | Medium     |
 | [River Sizes](https://github.com/shoaib9121/dynamic-programming/tree/river-sizes)                                 | Medium     |
