@@ -8,29 +8,18 @@ function findMinCost(arr) {
   } else {
     sortedArr.splice(sortedArr.length - 1, 1);
   }
-  console.log(sortedArr);
-  let leftPointer = 0;
-  let rightPointer = 1;
+  let leftPointer = 0,
+    i = 1;
   let sum = 0;
 
-  while (leftPointer * 2 < sortedArr.length / 2) {
-    const diff = Math.abs(sortedArr[leftPointer] - sortedArr[rightPointer]);
+  while (i <= sortedArr.length / 2) {
+    const diff = Math.abs(sortedArr[leftPointer] - sortedArr[leftPointer + 1]);
     sum += diff;
-    console.log(
-      `leftPointer ${leftPointer} rightPointer ${rightPointer} sum ${sum} diff ${diff}`
-    );
-    if (sum < minSum) {
-      minSum = sum;
-    }
-    leftPointer++;
-    rightPointer++;
+    minSum = sum;
+    leftPointer += 2;
+    i++;
   }
-
   return minSum;
 }
-// console.log(`finalCost ${findMinCost([4, 2, 8, 1, 9])}`); // [1,2,4,8,9], 5/2=2
-console.log(`finalCost ${findMinCost([4, 2, 18, 1, 3, 5, 9])}`);
-
-// console.log(Math.floor([4, 2, 8, 1, 3, 5, 9].length / 2)); // 7/2=3
-// console.log(Math.floor([4, 2, 8, 9, 1, 3, 4, 5, 9].length / 2)); // 9/2=4
-// console.log(Math.floor([4, 2, 8, 1, 9].length / 2));
+console.log(`finalCost ${findMinCost([4, 2, 8, 1, 9])}`); // [1,2,8,9], finalTotal=2
+console.log(`finalCost ${findMinCost([4, 2, 18, 1, 3, 5, 9])}`); // [ 1, 2, 3, 4, 5, 9 ], fintalTotal=6
