@@ -12,11 +12,7 @@ efficiency = [4, 2, 8, 1, 9]
 
 Using 1-based indexing, if employee 1 is excluded and the indices of the pairs are `(2, 4)` and `(3, 5)`, the cost of the task is `|2 - 1| + |8 - 9| = 2`.
 
-This is the minimum possible cost so return output
-
-```
-Output:2
-```
+This is the minimum possible cost so return output is `2`
 
 ### Function Description
 
