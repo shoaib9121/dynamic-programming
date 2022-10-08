@@ -1,7 +1,7 @@
 function findMinCost(arr) {
   const sortedArr = arr.sort((a, b) => a - b);
   const mean = Math.floor(sortedArr.length / 2);
-  let minSum = 0; // Total task cost
+  let minCost = 0; // Total task cost
 
   if (mean % 2 === 0) {
     sortedArr.splice(mean, 1);
@@ -15,11 +15,11 @@ function findMinCost(arr) {
   while (i <= sortedArr.length / 2) {
     const diff = Math.abs(sortedArr[leftPointer] - sortedArr[leftPointer + 1]);
     sum += diff;
-    minSum = sum;
+    minCost = sum;
     leftPointer += 2;
     i++;
   }
-  return minSum;
+  return minCost;
 }
-console.log(`finalCost ${findMinCost([4, 2, 8, 1, 9])}`); // [1,2,8,9], finalTotal=2
-console.log(`finalCost ${findMinCost([4, 2, 18, 1, 3, 5, 9])}`); // [ 1, 2, 3, 4, 5, 9 ], fintalTotal=6
+console.log(`minCost ${findMinCost([4, 2, 8, 1, 9])}`); // [1,2,8,9], output = 2
+console.log(`minCost ${findMinCost([4, 2, 18, 1, 3, 5, 9])}`); // [ 1, 2, 3, 4, 5, 9 ], output = 6
