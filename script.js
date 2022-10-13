@@ -1,25 +1,14 @@
-function findMinCost(arr) {
-  const sortedArr = arr.sort((a, b) => a - b);
-  const mean = Math.floor(sortedArr.length / 2);
-  let minCost = 0; // Total task cost
+function isPalindrome(str) {
+  let isValid = true;
+  let reverseStr = str.split("").reverse().join("");
 
-  if (mean % 2 === 0) {
-    sortedArr.splice(mean, 1);
-  } else {
-    sortedArr.splice(sortedArr.length - 1, 1);
+  for (let i = 0; i < str.length - 1, (char = str.charAt(i)); i++) {
+    if (reverseStr.charAt(i) !== char) {
+      return false;
+    }
   }
-  let leftPointer = 0,
-    i = 1;
-  let sum = 0;
-
-  while (i <= sortedArr.length / 2) {
-    const diff = Math.abs(sortedArr[leftPointer] - sortedArr[leftPointer + 1]);
-    sum += diff;
-    minCost = sum;
-    leftPointer += 2;
-    i++;
-  }
-  return minCost;
+  return isValid;
 }
-console.log(`minCost ${findMinCost([4, 2, 8, 1, 9])}`); // [1,2,8,9], output = 2
-console.log(`minCost ${findMinCost([4, 2, 18, 1, 3, 5, 9])}`); // [ 1, 2, 3, 4, 5, 9 ], output = 6
+console.log(`${isPalindrome("level")}`); // true
+console.log(`${isPalindrome("335533")}`); // true
+console.log(`${isPalindrome("shoaib")}`); // false
