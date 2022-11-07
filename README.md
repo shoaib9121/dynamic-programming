@@ -18,6 +18,7 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 | [Decimal to Binary](https://github.com/shoaib9121/dynamic-programming/tree/decimal-to-binary)                     | Easy       |
 | [Print Staircase](https://github.com/shoaib9121/dynamic-programming/tree/print-staircase)                         | Easy       |
 | [Pascal to Sentence case](https://github.com/shoaib9121/dynamic-programming/tree/pascal-to-sentence-case)         | Easy       |
+| [Find Suspicious IDs](https://github.com/shoaib9121/dynamic-programming/tree/find-suspicious-ids)                 | Easy       |
 | [Colorize Wordle](https://github.com/shoaib9121/dynamic-programming/tree/colorize-wordle)                         | Medium     |
 | [Minimum Task Cost](https://github.com/shoaib9121/dynamic-programming/tree/minimum-task-cost)                     | Medium     |
 | [Search a Word in a Dictionary](https://github.com/shoaib9121/dynamic-programming/tree/search-word-in-dictionary) | Medium     |
