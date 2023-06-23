@@ -1,10 +1,3 @@
-// Reverse an array without reversing special characters
-// Input ['a', '$', 'b', '#', 'c'];
-// Output : ['c', '$', 'b', '#', 'a']
-
-// Input : ['b', 'a', '$', 'c', '#']
-// Output : ['c', 'a', '$', 'b', '#']
-
 const isCharInRange = (char) => {
   const isValid = char.charCodeAt(0) >= 97 && char.charCodeAt(0) <= 122;
   return isValid;
