@@ -66,4 +66,8 @@ if the value of n is large, (which it usually is, when we are considering Big O 
 
 ![Big-O_Complexity_Chart](https://github.com/shoaib9121/dynamic-programming/assets/24590278/ac48cddc-dce4-43e7-91a3-ee5f3322a360)
 
+## References
+
 [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
+
+[Know Thy Complexities](https://paulonteri.com/dsa/ds&a/time-and-space-complexity)
