@@ -33,7 +33,7 @@ console.log("Using simple object", groupAnaGrams(strs));
 console.log("Using new Map()", groupAnaGramsWithMap(strs));
 
 /**
- * Find if two string are anagram
+ * Find if two strings are anagram
  * str = 'EAT' str1 = `TEA`, 'ATE', 'EAT', 'ETA'
  * str is anagram to str1
  *

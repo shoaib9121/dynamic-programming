@@ -10,7 +10,7 @@ Input: ["eat", "tea", "tan", "ate", "nat", "bat"]
 Output: [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]
 ```
 
-Find if two string are anagram
+Find if two strings are anagram
 
 ```
 str = 'EAT'
