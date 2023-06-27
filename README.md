@@ -47,4 +47,4 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 
 ### Links
 
-Big-O Cheat Sheet(https://www.bigocheatsheet.com/)
+[Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
