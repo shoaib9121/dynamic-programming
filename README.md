@@ -29,9 +29,9 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 | [River Sizes](https://github.com/shoaib9121/dynamic-programming/tree/river-sizes)                                                     | Medium     |
 | [Squares of Sorted Array](https://github.com/shoaib9121/dynamic-programming/tree/squares-of-sorted-array)                             | Medium     |
 
-## Dynamic Programming Tips
+## Dynamic Programming 
 
-### Alvin's Memoization Recipe
+### Tips - Alvin's Memoization Recipe
 
 1. Make it work
 
@@ -45,6 +45,25 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 - add a base case to return memo values
 - store return values into the memo
 
-### Links
+## Complexities
+
+The following are examples of common complexities and their Big O notations, ordered from fastest to slowest:
+
+- Constant: `O(1)`
+- Logarithmic: `O(log(n))`
+- Linear: `O(n)`
+- Log-linear: `O(n log(n))`
+- Quadratic: `O(n^2)`
+- Cubic: `O(n^3)`
+- Exponential: `O(2^n)`
+- Factorial: `O(n!)`
+
+```
+O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(2^n) < O(n!)
+
+if the value of n is large, (which it usually is, when we are considering Big O ie worst case), log n can be greater than 1
+```
+
+![Big-O_Complexity_Chart](https://github.com/shoaib9121/dynamic-programming/assets/24590278/ac48cddc-dce4-43e7-91a3-ee5f3322a360)
 
 [Big-O Cheat Sheet](https://www.bigocheatsheet.com/)
