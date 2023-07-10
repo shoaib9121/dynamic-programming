@@ -9,7 +9,7 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 | [Flatten Array](https://github.com/shoaib9121/dynamic-programming/tree/flatten-array)                                                 | Easy       |
 | [Palindromes](https://github.com/shoaib9121/dynamic-programming/tree/palindromes)                                                     | Easy       |
 | [Grid Traveler](https://github.com/shoaib9121/dynamic-programming/tree/grid-traveler)                                                 | Easy       |
-| [Group Anagrams](https://github.com/shoaib9121/dynamic-programming/tree/group-anagrams)                                               | Easy       |
+| [Anagrams](https://github.com/shoaib9121/dynamic-programming/tree/group-anagrams)                                                     | Easy       |
 | [Valid Parenthesis](https://github.com/shoaib9121/dynamic-programming/tree/valid-parenthesis)                                         | Easy       |
 | [Linked List](https://github.com/shoaib9121/dynamic-programming/tree/linked-list)                                                     | Easy       |
 | [Valid Parenthesis](https://github.com/shoaib9121/dynamic-programming/tree/valid-parenthesis)                                         | Easy       |
@@ -29,7 +29,7 @@ This repo consists of various JavaScript coding challenges. Each branch contains
 | [River Sizes](https://github.com/shoaib9121/dynamic-programming/tree/river-sizes)                                                     | Medium     |
 | [Squares of Sorted Array](https://github.com/shoaib9121/dynamic-programming/tree/squares-of-sorted-array)                             | Medium     |
 
-## Dynamic Programming 
+## Dynamic Programming
 
 ### Tips - Alvin's Memoization Recipe
 
